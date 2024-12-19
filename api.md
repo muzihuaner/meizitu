@@ -38,7 +38,7 @@ function _0x66f3q(id, data) {
 ```
 下载域名有两个：
 i. https://image.baidu.com/search/down?url=https://wx1.sinaimg.cn/mw1024/${imageName}  （潮拍馆）
-ii. https://p.meizitu.net/${YYYY}/${MM}/${imgName}  （写真馆） 
+ii. https://e.meizitu.net/images${YYYY}/${MM}/${imgName}  （写真馆） 
 
 6. 写真馆主页 获取套图id（通过dom获取）
 GET https://kkmzt.com/photo/
