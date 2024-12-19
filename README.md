@@ -8,7 +8,7 @@ node版本: node v16或以后版本
 
 ### 一、启动代理池
 因该网站有反爬虫手段，同一IP频繁访问会导致IP被封，故采用了[ProxyPool](https://github.com/jhao104/proxy_pool/tree/master)作为IP池，该池子抓去的IP部分质量还挺好的，做好异常判断就能用，打开[ProxyPool](https://github.com/jhao104/proxy_pool/tree/master)按照流程部署好服务（推荐Docker部署）。
-
+记得修改request.js里的代理地址
 
 ### 二、启动本脚本
 1. git clone
